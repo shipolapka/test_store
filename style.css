@@ -1,0 +1,675 @@
+@media (min-width: 1200px){
+.container {
+    max-width: 1280px!important;
+}
+}
+.header {
+	margin: 0 auto;
+}
+
+.up {
+	height: 40px;
+	background-color: rgb(245, 245, 249);
+
+}
+
+.city {
+	
+	font-size: 14px;
+  	font-family: "Exo 2";
+  	color: rgb(61, 61, 61);
+  	display: inline-block;
+
+}
+
+.number {
+	font-size: 16px;
+  	font-family: "Arial";
+  	color: rgb(64, 64, 65);
+  	font-weight: bold;
+  	line-height: 2.5;
+  	text-align: right;
+ display: inline-block;
+}
+
+.call {
+	background-color: rgb(238, 90, 63);
+ 	width: 180px;
+  	height: 40px;
+  	display: inline-block;
+  	
+}
+
+.call p{
+	border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-bottom-style: dashed;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Exo 2";
+  color: rgb(255, 255, 255);
+  width: 185px;
+ 
+}
+
+.info{
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.info li a {
+	text-decoration: none;
+	color: #404041;
+}
+
+.info li {
+	list-style-type: none;
+	text-align: left;
+	margin: 0 10px;
+}
+
+li {
+	display: inline-block;
+	color: #404041;
+	margin: 10px;
+}
+
+/*.info {
+	
+}*/
+
+.search {
+	display: inline-block;
+}
+
+.search input{
+  	height: 33px;
+  	font-size: 14px;
+  	font-family: "Exo 2";
+  	color: rgb(127, 127, 127);
+  	line-height: 2.857;
+  	text-align: left;
+  	padding-left: 10px;
+  	background: url(img/search.png) no-repeat 100% 50%;
+}
+
+input {
+  background: url(img/search.png) no-repeat;
+}
+
+button {
+  border: none;
+}
+
+.basket {
+	height: 50px;
+	border-radius: 2px;
+	background-color: rgb(239, 239, 241);
+}
+
+.logo {
+	display: inline-block;
+}
+
+.basket img {
+	margin: 0 0 -25px 29%;
+   
+}
+
+.m_header {
+  height: 55
+}
+
+.menu li {
+	list-style-type: none;
+	font-size: 16px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-align: left;
+  margin: 25px;
+ 
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #404041;
+	font-size: 16px;
+  font-family: "Exo 2";
+}
+
+.menu li a:hover {
+	color: #ee5a3f;
+}
+
+.more{
+	width: 1180px;
+  margin: 0 auto;
+  /*display: flex;*/
+  display: none;
+}
+
+.more li {
+	font-size: 16px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  line-height: 1.875;
+  display: block;
+}
+
+.more li b {
+	font-size: 14px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  line-height: 1.875;
+text-transform: uppercase;
+
+}
+
+.dropdown a:hover {
+  display: block;
+}
+
+
+
+.carousel-indicators li {
+  background-image: url(img/slide2.png)!important;
+width: 20px!important;
+  height: 6px!important;
+  border-radius: 0px!important;
+}
+
+.carousel-indicators .active {
+  background-image: url(img/slide.png)!important;
+  width: 20px!important;
+  height: 6px!important;
+  border-radius: 0px!important;
+}
+
+/*.slide_img {
+	text-align: center;
+}
+
+.carousel-control.left
+{
+  box-shadow: -1.923px 0.551px 6px 0px rgba(43, 43, 43, 0.15)!important;
+ width: 32px!important;
+  height: 56px!important;
+  position: absolute;
+  left: 320px;
+    top: 225px;
+}
+
+.icon-prev {
+	background-image: url(img/arrow_left.png)!important;
+	width: 32px!important;
+  height: 56px!important;
+}
+
+.icon-next {
+	background-image: url(img/arrow_right.png)!important;
+	width: 32px!important;
+  height: 56px!important;
+}
+
+.carousel-control.right
+{
+  box-shadow: -1.923px 0.551px 6px 0px rgba(43, 43, 43, 0.15)!important;
+ width: 32px!important;
+  height: 56px!important;
+  position: absolute;
+  left: 320px;
+    top: 225px;
+}
+*/
+h2 {
+	font-size: 28px;
+  font-family: "Exo 2";
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.071;
+  text-align: center;
+ 
+}
+
+.item {
+	position: relative;
+	display: inline-block;
+	 /*width: 380px;
+  height: 505px;
+  padding: 10px;*/
+}
+
+.best_sale {
+	/*width: 1280px;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.category {
+	font-size: 20px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+
+}
+
+.pro {
+  font-size: 16px;
+  font-family: "Exo 2";
+  color: rgb(127, 127, 127);
+  line-height: 2.5;
+}
+
+
+.old-price {
+	font-size: 20px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.trait {
+  position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+
+.new-price {
+	font-size: 26px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  font-weight: bold;
+  line-height: 1.154;
+  display: inline-block;
+}
+
+.house {
+  font-family: "Exo 2";
+  font-size: 16px;
+  color: 363636;
+}
+
+.all {
+	border: 2px solid #404041;
+	width: 344px;
+  height: 54px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.all a {
+	font-size: 16px;
+  font-family: "Exo 2";
+  color: #404041;
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.all a:hover {
+	color: #404041;
+	text-decoration: none;
+}
+
+.text {
+  background-color: #f5f5f9;
+}
+
+.tit {
+	font-size: 28px;
+  font-family: "Exo 2";
+  color: #363636;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.071;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.tit-1 {
+  font-size: 28px;
+  font-family: "Exo 2";
+  color: #363636;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.071;
+
+}
+
+/*.round {
+position: relative;
+ 
+}
+
+.over {
+	position: absolute;
+	    top: 34px;
+    right: 1211px;
+}
+*/
+.block1{
+	font-size: 16px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.875;
+  margin-top: 20px;
+ 
+}
+
+.descr {
+	font-size: 16px;
+   font-family: "Exo 2";
+   color: rgb(54, 54, 54);
+   line-height: 1.563;
+
+}
+
+.descr a{
+	color: #ee5a3f;
+}
+
+/*.text1 {
+    width: 400px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+
+}
+
+.text2{
+	width: 400px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 40px;
+}*/
+
+.text {
+	/*margin-left: auto;
+	margin-right: auto;
+	width: 1280px;*/
+	margin-top: 40px;
+}
+
+.comments {
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	    margin-top: 40px;
+}
+
+.comm1 {
+	font-size: 28px;
+  font-family: "Exo 2";
+  color: rgb(54, 54, 54);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.071;
+ /*margin-left: 200px;*/
+}
+
+.comm3 {
+	font-size: 16px;
+  font-family: "Exo 2";
+  color: rgb(54, 54, 54);
+  line-height: 1.563;
+ /*margin-left: 200px;*/
+}
+
+.comm2 {
+	font-size: 16px;
+  font-family: "Exo 2";
+  color: rgb(238, 90, 63);
+  line-height: 1.875;
+     /* margin-left: 650px;*/
+}
+
+.name {
+	font-size: 14px;
+  font-family: "Exo 2";
+  color: rgb(127, 127, 127);
+  line-height: 2.143;
+     margin-top: 25px;
+}
+
+.arrow_left {
+	display: inline-block;
+	width: 70px;
+	height: 35px;
+	border: 1px solid #e7e7e7;
+}
+
+.arrow_right {
+	display: inline-block;
+	width: 70px;
+	height: 35px;
+	border: 1px solid #e7e7e7;
+}
+
+.arrow_right a:focused {
+	border: 1px solid #404041;
+}
+
+
+.work{
+	/*width: 1280px;*/
+  background-color: #f5f5f9;
+  margin: 0 auto;
+  /*padding: 10px 0 0 80px;*/
+}
+
+.icon {
+	display: inline-block;
+	/*width: 275px;
+	padding-top: 25px;*/
+}
+
+.topic {
+  font-size: 16px;
+  font-family: "Exo 2";
+  color: rgb(64, 64, 65);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.859;
+  text-align: center;
+ /*padding-top: 10px;*/
+}
+
+.topic-text {
+	text-align: center;
+	font-size: 16px;
+  font-family: "Arial";
+  color: rgb(64, 64, 65);
+  line-height: 1.563;
+}
+
+.icon img {
+	display: block;
+    margin: 0 auto;
+}
+
+.cause {
+	/*width: 1280px;*/
+	margin: 0 auto;
+	/*padding: 10px 0 0 80px;*/
+}
+
+.flex-1 {
+	display: flex;
+    /* align-content: space-between; */
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.flex-2 {
+	display: flex;
+    /* align-content: space-between; */
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.topic-text-2{
+	font-size: 18px;
+  font-family: "Exo 2";
+  color: rgb(54, 54, 54);
+  line-height: 1.389;
+  text-align: center; 
+}
+
+.about {
+	margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.list {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(158, 158, 161);
+  line-height: 2.143;
+  width: 116px;
+}
+
+.footer {
+	background-color: #363636;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.f-info .sec {
+	font-size: 16px;
+  font-family: "Exo 2";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.f-info .list-1 {
+	margin: 0;
+    list-style: none;
+
+}
+
+.f-info.col-12{
+	text-align: center;
+}
+
+.list-1 li {
+	margin: 0;
+	color: #9e9ea1;
+  display: block;
+}
+
+.about-info {
+	 font-size: 14px;
+  font-family: "Arial";
+  color: rgb(158, 158, 161);
+}
+
+.f-info {
+  margin-top: 40px;
+}
+
+.m_menu li a{
+  font-family: "Exo 2";
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+ list-style: none;
+ color: #404041;
+ text-decoration-line: none; 
+
+}
+
+.m_about li a{
+  font-family: "Exo 2";
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+ list-style: none;
+ color: #ffffff;
+ text-decoration-line: none; 
+ 
+}
+
+.m_menu  li{
+  display: block!important;
+}
+
+.m_about li{
+  display: block!important;
+}
+
+.m_about {
+  background-color: #404041;
+}
+
+.l2_header_text {
+  font-family: "Exo 2";
+  font-size: 15px;
+ color: #404041;
+}
+
+.l2_header {
+  background-color: rgb(245, 245, 249);
+}
+
+.no {
+  border: 2px solid #404041;
+  background-color: #ffffff;
+  font-family: "Exo 2";
+  font-size: 14px;
+  width: 120px;
+  height: 50px;
+}
+
+.yes {
+  border: 2px solid #404041;
+  background-color: rgb(64, 64, 65);;
+  font-family: "Exo 2";
+  font-size: 14px;
+  color: #ffffff;
+  width: 120px;
+  height: 50px;
+}
+
+.m_city b {
+  font-size: 21px;
+  font-family: "Exo 2";
+  font-weight: bold;
+  text-align: center;
+}
+
+.m_city {
+  width: 290px;
+  height: 195px;
+  background-color: #ffffff;
+}
+.dropdown-item{
+	width: unset!important;
+	display: inline-block!important;
+}
+.about-info.row.justify-content-between{
+	text-align: center;
+}
